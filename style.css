@@ -1,0 +1,142 @@
+
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+body{
+    background: #FFDAC8;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 700px;
+    width: 400px;
+    border-radius:20px;
+    border: 2px solid black;
+    box-shadow: 25px 25px 0 black;
+    margin-top: 2px;
+
+
+}  
+
+.title{
+    color:#55e248;
+    font-weight: 800;
+    font-size: 55px;
+    margin-top:15px;
+
+
+}
+
+span{
+    color: red;
+    margin-left: 10px;
+} 
+
+.sub-title{
+    font-weight: 600;
+    margin: 5px 0;
+
+}
+
+::placeholder{
+    letter-spacing: 1px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 10px;i
+
+}
+
+.form-style{
+    outline:none;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 1px black;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    transition:0.3s ease;
+
+}
+
+.form-style-focus{
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px black;
+
+}
+
+.btn{
+    padding: 15px;
+    margin: 20px 0px;
+    width: 310px;
+    font-size: 20px;
+    background: #55e248;
+    border-radius: 4px;
+    font-weight: 720;
+    box-shadow: 6px 5px black;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btn:hover{
+    transform: translateY(4px);
+    box-shadow:1px 2px 0px 0px black;
+
+}
+
+p{
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.link{
+    font-weight: 800;
+    color: #55e248;
+    text-decoration: none;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+
+}
+
+.terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 15px;
+
+}
+
+.terms input{
+    margin-left: 0.5em;
+    accent-color: #55e248;
+
+}
